@@ -44,11 +44,7 @@ list.addEventListener('click', e => {
        
         input.value = e.target.nextElementSibling.innerHTML;
         e.target.parentElement.remove()
-        
-       
-        
-      
-        
+
     };
 });
 
