@@ -1,38 +1,26 @@
 body{
-    font-family: sans-serif;
-    margin:0 50px;
-    background-color: black;
-    color: green;
-}
-.container{
-    display: flex;
-  
-}
-.right{
-    margin: 50px;
-    position: relative;
-    top: -35px;
-}
-
-.options{
-    display: flex;
-    gap: 25px;
-}
-
-i{
+    background: #352f5b;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
     cursor: pointer;
-}
+  }
+  .edit{
+    cursor: pointer;
+  }
 
-#posts{
-    width: 200px;
-}
-
-#posts div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#msg{
-    color: green
+.filtered{
+    display: none !important;
 }
