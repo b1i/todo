@@ -1,3 +1,3 @@
-# todo-list
+# todo
 
-Basic todo-list 
+a simple todo list.
