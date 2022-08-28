@@ -11,8 +11,7 @@ const generateTemaplate = todo => {
              <i class="fa-solid fa-pen-to-square edit"></i>
              <span class="text-light">${todo}</span>
              <i class="far fa-trash-alt delete"></i>
-        </li>
-    `;
+        </li>`;
 
     list.innerHTML += html;
 
